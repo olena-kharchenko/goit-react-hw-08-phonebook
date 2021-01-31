@@ -6,6 +6,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  list-style: none;
   padding: 5px;
   border-radius: 5px;
   border: 1px solid #cacaca;
@@ -19,16 +20,25 @@
 }
 
 .item:hover {
-  transform: scale(0.98);
-  background-color: rgb(69, 103, 131);
+  /* transform: scale(0.99); */
+  background-color: rgba(69, 103, 131, 0.863);
   border-color: rgb(52, 78, 99);
   color: #ffffff;
   box-shadow: 0 0 40px rgba(0, 0, 0, 0.1) inset;
 }
 
+.link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-decoration: none;
+  color: inherit;
+}
+
 .text {
   padding: 0;
   margin: 0;
+  font-size: 15px;
 }
 
 .span {
@@ -54,9 +64,14 @@
   color: #ffffff;
 }
 
-.heart {
+.icon {
   margin-right: 10px;
-  color: #dc143c;
+  color: rgb(69, 103, 131);
+  transition: color 500ms cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.item:hover .icon {
+  color: #ffffff;
 }
 
 .times {

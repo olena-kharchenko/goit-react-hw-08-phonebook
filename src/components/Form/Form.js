@@ -2,8 +2,8 @@ import { useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import PhoneInput from 'react-phone-input-2';
 import 'react-phone-input-2/lib/style.css';
-import { getContacts } from 'redux/phonebook-selectors';
-import * as phonebookOperations from 'redux/phonebook-operations';
+import { getContacts } from 'redux/phonebook/phonebook-selectors';
+import * as phonebookOperations from 'redux/phonebook/phonebook-operations';
 import s from './Form.module.css';
 
 export default function MyForm() {

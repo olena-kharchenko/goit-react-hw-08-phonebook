@@ -38,12 +38,4 @@ export const store = configureStore({
   devTools: process.env.NODE_ENV === 'development',
 });
 
-// export const store = configureStore({
-//   reducer: {
-//     contacts: phonebookReducer,
-//   },
-//   middleware,
-//   devTools: process.env.NODE_ENV === 'development',
-// });
-
 export const persistor = persistStore(store);

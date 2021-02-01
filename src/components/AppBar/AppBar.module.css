@@ -1,6 +1,7 @@
-.headers {
+.header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid #2a363b;
+  padding-bottom: 5px;
+  border-bottom: 1px solid rgb(17, 70, 114);
 }

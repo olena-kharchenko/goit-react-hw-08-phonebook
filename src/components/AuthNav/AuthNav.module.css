@@ -6,6 +6,6 @@
   color: #2a363b;
 }
 
-.activeLink {
-  color: #e84a5f;
+.link:last-child {
+  margin-left: 5px;
 }

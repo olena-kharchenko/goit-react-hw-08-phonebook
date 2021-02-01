@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { useDispatch } from 'react-redux';
-import authOperations from 'redux/auth/auth-slice';
+import authOperations from 'redux/auth/auth-operations';
 import s from './LoginView.module.css';
 
 export default function LoginView() {
@@ -21,7 +21,7 @@ export default function LoginView() {
 
   const handleSubmit = e => {
     e.preventDefault();
-    dispatch(authOperations.logIn({ email, password }));
+    dispatch(authOperations.login({ email, password }));
     setEmail('');
     setPassword('');
   };

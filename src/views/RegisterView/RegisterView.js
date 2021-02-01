@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { useDispatch } from 'react-redux';
-import authOperations from 'redux/auth/auth-slice';
+import authOperations from 'redux/auth/auth-operations';
 import s from './RegisterView.module.css';
 
 export default function RegisterView() {

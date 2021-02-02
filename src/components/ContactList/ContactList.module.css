@@ -58,7 +58,6 @@
 }
 
 .button:hover {
-  transform: scale(0.95);
   background-color: #dc143c;
   border-color: rgb(71, 5, 14);
   color: #ffffff;

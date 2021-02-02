@@ -23,8 +23,7 @@
     "redux-logger": "^3.0.6",
     "redux-persist": "^6.0.0",
     "shortid": "^2.2.16",
-    "web-vitals": "^0.2.4",
-    "yup": "^0.32.8"
+    "web-vitals": "^0.2.4"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -32,8 +31,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "server": "json-server --delay 500 --port 3000 --watch db.json"
+    "deploy": "gh-pages -d build"
   },
   "homepage": "https://olena-kharchenko.github.io/goit-react-hw-08-phonebook",
   "eslintConfig": {

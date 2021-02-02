@@ -15,6 +15,7 @@
   margin-top: 15px;
   padding: 5px;
   font-family: inherit;
+  font-weight: 700;
   font-size: 16px;
   border-radius: 5px;
   border: 1px solid #cacaca;
@@ -24,7 +25,6 @@
 }
 
 .button:hover {
-  transform: scale(0.95);
   background-color: rgb(69, 103, 131);
   border-color: rgb(52, 78, 99);
   color: #ffffff;
